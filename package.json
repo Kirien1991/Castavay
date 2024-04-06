@@ -1,22 +1,16 @@
 {
   "name": "castavay",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "scss:watch": "sass ./scss/main.scss css/main.css -w"
+    "scss:watch": "gulp watch"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Kirien1991/Castavay.git"
-  },
-  "author": "",
+  "author": "Kirill",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Kirien1991/Castavay/issues"
-  },
-  "homepage": "https://github.com/Kirien1991/Castavay#readme",
+  "description": "",
   "devDependencies": {
-    "sass": "^1.72.0"
+    "gulp": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.74.1"
   }
 }
