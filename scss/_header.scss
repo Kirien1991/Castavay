@@ -9,19 +9,29 @@
   height: 33px;
   color: white;
   text-decoration: none;
-  font-size: 33px;
-  letter-spacing: 2.6px;
+  font-size: 34px;
+  font-weight: 600;
+  letter-spacing: 1.1px;
 }
 
 .nav {
   display: flex;
   align-items: center;
   list-style: none;
-  column-gap: 30px;
+  column-gap: 41px;
   height: 100%;
+  padding-top: 3px;
 }
 
 .nav__link {
   color: #ffffff;
   text-decoration: none;
+  font-size: 18px;
+  font-weight: 300;
+  
+  &:hover,
+  &--active {
+    color: #118DA8;
+  }
 }
+

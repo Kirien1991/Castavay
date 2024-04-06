@@ -1,0 +1,36 @@
+.section {
+    padding: 42px 0;
+
+    &__container {
+        display: flex;
+        padding: 0 20px;
+    }
+    
+    &__left {
+        width: 52%;        
+    }
+
+    &__img {
+        position: relative;
+
+        img {
+            max-width: 100%;
+        }
+
+        &:before {
+            content: "";
+            position: absolute;
+            left: -25px;
+            top: -26px;
+            background-image: url(../images/section/lines.svg);
+            background-size: 100%;
+            width: 68px;
+            height: 74px;
+            z-index: 1;
+        }
+    }
+
+    &__right {
+        width: 50%;
+    }
+}

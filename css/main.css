@@ -11,8 +11,9 @@ body {
 
 .wrapper {
   max-width: 1440px;
-  padding: 0px 30px;
+  padding: 0px 60px;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .header__content {
@@ -26,19 +27,57 @@ body {
   height: 33px;
   color: white;
   text-decoration: none;
-  font-size: 33px;
-  letter-spacing: 2.6px;
+  font-size: 34px;
+  font-weight: 600;
+  letter-spacing: 1.1px;
 }
 
 .nav {
   display: flex;
   align-items: center;
   list-style: none;
-  column-gap: 30px;
+  column-gap: 41px;
   height: 100%;
+  padding-top: 3px;
 }
 
 .nav__link {
   color: #ffffff;
   text-decoration: none;
+  font-size: 18px;
+  font-weight: 300;
+}
+.nav__link:hover, .nav__link--active {
+  color: #118DA8;
+}
+
+.section {
+  padding: 42px 0;
+}
+.section__container {
+  display: flex;
+  padding: 0 20px;
+}
+.section__left {
+  width: 52%;
+}
+.section__img {
+  position: relative;
+}
+.section__img img {
+  max-width: 100%;
+}
+.section__img:before {
+  content: "";
+  position: absolute;
+  left: -25px;
+  top: -26px;
+  background-image: url(../images/section/lines.svg);
+  background-size: 100%;
+  width: 68px;
+  height: 74px;
+  z-index: 1;
+}
+.section__right {
+  width: 50%;
 }
