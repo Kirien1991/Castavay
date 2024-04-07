@@ -16,6 +16,16 @@ body {
   box-sizing: border-box;
 }
 
+.btn {
+  background-color: #118DA8;
+  color: #FFFFFF;
+  font-size: 17px;
+  border-radius: 6px;
+  border: none;
+  padding: 14px 21px;
+  font-family: "DM Sans", sans-serif;
+}
+
 .header__content {
   display: flex;
   justify-content: space-between;
@@ -136,8 +146,30 @@ body {
   line-height: 24px;
 }
 .section__link {
-  padding-top: 17px;
+  padding-top: 15px;
 }
 .section__link a {
-  padding-right: 13px;
+  display: inline-block;
+  margin-right: 13px;
+  font-size: 0px;
+}
+
+.contact {
+  padding-top: 43px;
+}
+.contact__header {
+  padding: 0 23px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact__title {
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 79.2px;
+  letter-spacing: 5.88px;
+}
+.contact__button {
+  padding-top: 31px;
+  margin-right: -23px;
 }

@@ -103,9 +103,11 @@
   }
 
   &__link {
-    padding-top: 17px;
+    padding-top: 15px;
     a {
-      padding-right: 13px;
+      display: inline-block;
+      margin-right: 13px;
+      font-size: 0px;
     }
   }
 }

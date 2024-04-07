@@ -3,10 +3,12 @@
   padding: 0;
 }
 
+$fontBase: "DM Sans", sans-serif;
+
 body {
   background-color: #191919;
   color: #ffffff;
-  font-family: "DM Sans", sans-serif;
+  font-family: $fontBase;
 }
 
 .wrapper {
@@ -14,4 +16,14 @@ body {
   padding: 0px 60px;
   margin: 0 auto;
   box-sizing: border-box;
+}
+
+.btn {
+  background-color: #118DA8;
+  color: #FFFFFF;
+  font-size: 17px;
+  border-radius: 6px;
+  border: none;
+  padding: 14px 21px;
+  font-family: $fontBase;
 }

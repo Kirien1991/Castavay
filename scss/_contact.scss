@@ -1,0 +1,56 @@
+.contact {
+    padding-top: 43px;
+
+    .wrapper {
+
+    }
+
+    &__header {
+        padding: 0 23px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__title {
+        font-size: 64px;
+        font-weight: 400;
+        line-height: 79.2px;
+        letter-spacing: 5.88px;
+    }
+
+    &__button {
+        padding-top: 31px;
+        margin-right: -23px;
+    }
+}
+
+.contactItem {
+    &__image {
+
+    }
+
+    &__content {
+
+    }
+
+    &__tag {
+
+    }
+
+    &__link {
+
+    }
+
+    &__title {
+
+    }
+
+    &__desc {
+
+    }
+
+    &__btn {
+        
+    }
+}
