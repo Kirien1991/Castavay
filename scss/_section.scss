@@ -32,10 +32,7 @@
 
   &__right {
     width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: 129px;
+    padding-top: 297px;
   }
 
   &__content {
@@ -43,8 +40,7 @@
     display: flex;
     justify-content: center;
     padding-left: 13px;
-    padding-top: 167px;
-    height: 50%;
+    margin-bottom: 90px;
   }
 
   &__title {
@@ -65,7 +61,7 @@
     &--text2 {
       font-size: 75px;
       letter-spacing: 5.3px;
-    }
+    } 
 
     &--text3 {
       font-size: 80px;
@@ -89,9 +85,7 @@
   }
 
   &__item {
-    padding-top: 91px;
     padding-left: 79px;
-    height: 50%;
   }
 
   &__txtbottom {
