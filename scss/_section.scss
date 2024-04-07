@@ -40,10 +40,11 @@
 
   &__content {
     position: relative;
-    top: 12px;
     display: flex;
     justify-content: center;
-    padding-left: 12px;
+    padding-left: 13px;
+    padding-top: 167px;
+    height: 50%;
   }
 
   &__title {
@@ -55,7 +56,7 @@
   &__text {
     font-size: 70px;
     font-weight: 400;
-    line-height: 88px;
+    line-height: 86px;
     letter-spacing: 6.6px;
 
     &--text1 {
@@ -63,20 +64,22 @@
 
     &--text2 {
       font-size: 75px;
+      letter-spacing: 5.3px;
     }
 
     &--text3 {
       font-size: 80px;
-      font-weight: 700;
+      font-weight: 600;
       letter-spacing: 6px;
-      padding-left: 14px;
+      padding-left: 19px;
     }
 
     &--text3:before {
       content: "";
       position: absolute;
       left: 53px;
-      bottom: 0px;
+      bottom: -4px;
+      left: 55px;
       background-image: url(../images/section/line__bottom.svg);
       background-size: 100%;
       width: 163px;
@@ -86,19 +89,23 @@
   }
 
   &__item {
-    padding-top: 103px;
-    padding-left: 81px;
+    padding-top: 91px;
+    padding-left: 79px;
+    height: 50%;
   }
 
   &__txtbottom {
     h5 {
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 24px;
     }
   }
 
   &__link {
-    padding-top: 21px;
+    padding-top: 17px;
     a {
-      padding-right: 12px;
+      padding-right: 13px;
     }
   }
 }
