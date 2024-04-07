@@ -1,36 +1,104 @@
 .section {
-    padding: 42px 0;
+  padding: 42px 0;
 
-    &__container {
-        display: flex;
-        padding: 0 20px;
-    }
-    
-    &__left {
-        width: 52%;        
-    }
+  &__container {
+    display: flex;
+    padding: 0 20px;
+  }
 
-    &__img {
-        position: relative;
+  &__left {
+    width: 52%;
+  }
 
-        img {
-            max-width: 100%;
-        }
+  &__img {
+    position: relative;
 
-        &:before {
-            content: "";
-            position: absolute;
-            left: -25px;
-            top: -26px;
-            background-image: url(../images/section/lines.svg);
-            background-size: 100%;
-            width: 68px;
-            height: 74px;
-            z-index: 1;
-        }
+    img {
+      max-width: 100%;
     }
 
-    &__right {
-        width: 50%;
+    &:before {
+      content: "";
+      position: absolute;
+      left: -25px;
+      top: -26px;
+      background-image: url(../images/section/lines.svg);
+      background-size: 100%;
+      width: 68px;
+      height: 74px;
+      z-index: 1;
     }
+  }
+
+  &__right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 129px;
+  }
+
+  &__content {
+    position: relative;
+    top: 12px;
+    display: flex;
+    justify-content: center;
+    padding-left: 12px;
+  }
+
+  &__title {
+    position: relative;
+    padding-top: 141px;
+    padding-left: 59px;
+  }
+
+  &__text {
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 88px;
+    letter-spacing: 6.6px;
+
+    &--text1 {
+    }
+
+    &--text2 {
+      font-size: 75px;
+    }
+
+    &--text3 {
+      font-size: 80px;
+      font-weight: 700;
+      letter-spacing: 6px;
+      padding-left: 14px;
+    }
+
+    &--text3:before {
+      content: "";
+      position: absolute;
+      left: 53px;
+      bottom: 0px;
+      background-image: url(../images/section/line__bottom.svg);
+      background-size: 100%;
+      width: 163px;
+      height: 11px;
+      z-index: 2;
+    }
+  }
+
+  &__item {
+    padding-top: 103px;
+    padding-left: 81px;
+  }
+
+  &__txtbottom {
+    h5 {
+    }
+  }
+
+  &__link {
+    padding-top: 21px;
+    a {
+      padding-right: 12px;
+    }
+  }
 }
