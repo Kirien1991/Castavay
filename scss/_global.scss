@@ -19,11 +19,25 @@ body {
 }
 
 .btn {
-  background-color: #118DA8;
-  color: #FFFFFF;
+  &--top {
+    paddinng: 14px 25px;
+  }
+  background-color: #118da8;
+  color: #ffffff;
   font-size: 17px;
   border-radius: 6px;
   border: none;
-  padding: 14px 21px;
+  padding: 14px 17px;
+  font-family: $fontBase;
+}
+
+.link {
+  background-color: #191919;
+  color: #ffffff;
+  font-size: 18px;
+  border-radius: 6px;
+  border: none;
+  text-decoration: none;
+  padding: 3px 17px;
   font-family: $fontBase;
 }
