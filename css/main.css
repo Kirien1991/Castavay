@@ -26,7 +26,7 @@ body {
   font-family: "DM Sans", sans-serif;
 }
 .btn--top {
-  paddinng: 14px 25px;
+  padding-right: 23px;
 }
 
 .link {
@@ -38,6 +38,9 @@ body {
   text-decoration: none;
   padding: 3px 17px;
   font-family: "DM Sans", sans-serif;
+}
+.link--average {
+  letter-spacing: -0.3px;
 }
 
 .header__content {
@@ -164,6 +167,7 @@ body {
 
 .content {
   padding-top: 43px;
+  margin-bottom: 120px;
 }
 .content__header {
   padding: 0 23px;
@@ -175,7 +179,7 @@ body {
   font-size: 64px;
   font-weight: 400;
   line-height: 79.2px;
-  letter-spacing: 5.88px;
+  letter-spacing: 6.2px;
 }
 .content__button {
   padding-top: 31px;
@@ -191,6 +195,7 @@ body {
   display: flex;
   background-color: #000000;
   border-radius: 32px;
+  margin-bottom: 60px;
 }
 .contentItem__image {
   padding-left: 41px;
@@ -219,6 +224,12 @@ body {
   padding-left: 55px;
   margin-bottom: 27px;
 }
+.contentItem__title--average {
+  letter-spacing: 5.9px;
+}
+.contentItem__title--bottom {
+  letter-spacing: 2.2px;
+}
 .contentItem__desc {
   font-size: 22px;
   line-height: 33px;
@@ -226,7 +237,7 @@ body {
   margin-bottom: 18px;
 }
 .contentItem__btn {
-  padding-left: 55px;
+  padding-left: 56px;
 }
 .contentItem__btn a {
   color: #ffffff;
