@@ -1,12 +1,12 @@
 .content {
-  padding-top: 43px;
-  margin-bottom: 120px;
+  padding-top: 40px;
+  margin-bottom: 265px;
 
   .wrapper {
   }
 
   &__header {
-    padding: 0 23px;
+    padding: 6px 23px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,7 +26,7 @@
 
   &__container {
     box-sizing: border-box;
-    margin-top: 64px;
+    margin-top: 56px;
     margin-left: 19px;
   }
 }
@@ -60,6 +60,9 @@
     padding-left: 54px;
     display: inline-block;
     margin-bottom: 19px;
+    span {
+      padding-left: 4px;
+    }
   }
 
   &__title {

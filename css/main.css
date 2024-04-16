@@ -43,6 +43,11 @@ body {
   letter-spacing: -0.3px;
 }
 
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
 .header__content {
   display: flex;
   justify-content: space-between;
@@ -154,10 +159,10 @@ body {
 .section__txtbottom h5 {
   font-size: 15px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 30px;
 }
 .section__link {
-  padding-top: 15px;
+  padding-top: 13px;
 }
 .section__link a {
   display: inline-block;
@@ -166,11 +171,11 @@ body {
 }
 
 .content {
-  padding-top: 43px;
-  margin-bottom: 120px;
+  padding-top: 40px;
+  margin-bottom: 265px;
 }
 .content__header {
-  padding: 0 23px;
+  padding: 6px 23px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -187,7 +192,7 @@ body {
 }
 .content__container {
   box-sizing: border-box;
-  margin-top: 64px;
+  margin-top: 56px;
   margin-left: 19px;
 }
 
@@ -216,6 +221,9 @@ body {
   display: inline-block;
   margin-bottom: 19px;
 }
+.contentItem__link span {
+  padding-left: 4px;
+}
 .contentItem__title {
   font-size: 64px;
   font-weight: 400;
@@ -243,4 +251,62 @@ body {
   color: #ffffff;
   font-size: 18px;
   text-decoration: none;
+}
+
+.tutorial__header {
+  display: flex;
+}
+.tutorial__left {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+.tutorial__left h2 {
+  font-size: 65px;
+  font-weight: 400;
+  line-height: 75.2px;
+  letter-spacing: 5.58px;
+  padding-left: 24px;
+  margin-bottom: 29px;
+}
+.tutorial__btn {
+  background-color: #118da8;
+  border-radius: 50%;
+  border: none;
+  width: 112px;
+  height: 112px;
+  margin-top: 146px;
+  margin-left: 22px;
+  margin-bottom: 22px;
+}
+.tutorial__link {
+  color: #118da8;
+  font-size: 18px;
+  line-height: 27px;
+  text-decoration: none;
+  padding-left: 21px;
+}
+.tutorial__txt {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  padding-left: 21px;
+}
+.tutorial__txt--top {
+  margin-bottom: 33px;
+}
+.tutorial__right {
+  width: 40%;
+  padding-right: 122px;
+}
+.tutorial__lf a {
+  color: #118da8;
+  font-size: 18px;
+  line-height: 27px;
+}
+.tutorial__lf h2 {
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 79.2px;
+  letter-spacing: 2.88px;
 }
