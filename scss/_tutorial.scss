@@ -55,9 +55,12 @@
   }
 
   &__content {
+    background-color: #000000;
+    border-radius: 32px;
   }
 
   &__lf {
+    width: 50%;
     a {
       color: #118da8;
       font-size: 18px;
@@ -72,5 +75,16 @@
   }
 
   &__rh {
+    width: 50%;
+  }
+}
+
+.input {
+  &__form {
+    background-color: #191919;
+    color: #ffffffb2;
+    border: none;
+    text-transform: capitalize;
+    font-size: 24px;
   }
 }

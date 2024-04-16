@@ -28,6 +28,9 @@ body {
 .btn--top {
   padding-right: 23px;
 }
+.btn a {
+  color: rgba(255, 255, 255, 0.6980392157);
+}
 
 .link {
   background-color: #191919;
@@ -299,6 +302,13 @@ a {
   width: 40%;
   padding-right: 122px;
 }
+.tutorial__content {
+  background-color: #000000;
+  border-radius: 32px;
+}
+.tutorial__lf {
+  width: 50%;
+}
 .tutorial__lf a {
   color: #118da8;
   font-size: 18px;
@@ -309,4 +319,15 @@ a {
   font-weight: 400;
   line-height: 79.2px;
   letter-spacing: 2.88px;
+}
+.tutorial__rh {
+  width: 50%;
+}
+
+.input__form {
+  background-color: #191919;
+  color: rgba(255, 255, 255, 0.6980392157);
+  border: none;
+  text-transform: capitalize;
+  font-size: 24px;
 }
