@@ -25,6 +25,9 @@ body {
   padding: 14px 17px;
   font-family: "DM Sans", sans-serif;
 }
+.btn--tutorial {
+  padding: 0;
+}
 .btn--top {
   padding-right: 23px;
 }
@@ -57,7 +60,7 @@ a {
 .header__content {
   display: flex;
   justify-content: space-between;
-  padding: 38px 0px;
+  padding: 35px 0px;
 }
 
 .logo {
@@ -76,7 +79,7 @@ a {
   list-style: none;
   column-gap: 41px;
   height: 100%;
-  padding-top: 3px;
+  padding-top: 4px;
 }
 .nav__link {
   color: #ffffff;
@@ -89,7 +92,7 @@ a {
 }
 
 .section {
-  padding: 42px 0;
+  padding: 50px 0;
 }
 .section__container {
   display: flex;
@@ -124,7 +127,7 @@ a {
   display: flex;
   justify-content: center;
   padding-left: 13px;
-  margin-bottom: 90px;
+  margin-bottom: 87px;
 }
 .section__title {
   position: relative;
@@ -160,7 +163,7 @@ a {
   z-index: 2;
 }
 .section__item {
-  padding-left: 79px;
+  padding-left: 81px;
 }
 .section__txtbottom h5 {
   font-size: 15px;
@@ -177,7 +180,7 @@ a {
 }
 
 .content {
-  padding-top: 40px;
+  padding-top: 29px;
   margin-bottom: 265px;
 }
 .content__header {
@@ -190,7 +193,7 @@ a {
   font-size: 64px;
   font-weight: 400;
   line-height: 79.2px;
-  letter-spacing: 6.2px;
+  letter-spacing: 6.1px;
 }
 .content__button {
   padding-top: 31px;
@@ -302,6 +305,7 @@ a {
 .tutorial__content {
   background-color: #000000;
   border-radius: 32px;
+  display: flex;
 }
 .tutorial__lf {
   width: 50%;
@@ -319,6 +323,8 @@ a {
 }
 .tutorial__rh {
   width: 50%;
+  display: flex;
+  flex-direction: column;
 }
 
 .input__form {

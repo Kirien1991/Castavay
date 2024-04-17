@@ -1,13 +1,14 @@
 .tutorial {
   &__header {
     display: flex;
+    margin-bottom: 197px;
   }
 
   &__left {
     width: 60%;
     display: flex;
     flex-direction: column;
-    padding-top: 150px;
+    padding-top: 148px;
     padding-left: 20px;
 
     h2 {
@@ -58,6 +59,7 @@
   &__content {
     background-color: #000000;
     border-radius: 32px;
+    display: flex;
   }
 
   &__lf {
@@ -77,11 +79,16 @@
 
   &__rh {
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 90px;
   }
 }
 
 .input {
   &__form {
+    display: flex;
+    flex-direction: column;
     background-color: #191919;
     color: #ffffffb2;
     border: none;

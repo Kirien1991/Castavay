@@ -19,10 +19,13 @@ body {
 }
 
 .btn {
+  &--tutorial {
+    padding: 0;
+  }
   &--top {
     padding-right: 23px;
   }
-  
+
   a {
     color: #ffffffb2;
   }
