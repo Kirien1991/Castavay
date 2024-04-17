@@ -22,9 +22,11 @@ body {
   &--top {
     padding-right: 23px;
   }
+  
   a {
     color: #ffffffb2;
   }
+
   background-color: #118da8;
   color: #ffffff;
   font-size: 17px;
@@ -32,6 +34,10 @@ body {
   border: none;
   padding: 14px 17px;
   font-family: $fontBase;
+
+  &--middle {
+    letter-spacing: 0.6px;
+  }
 }
 
 .link {

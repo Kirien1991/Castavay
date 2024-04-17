@@ -113,8 +113,8 @@
               </p>
 
               <div class="contentItem__btn">
-                <button class="btn">
-                  <a href="#">View Episode Details</a>
+                <button class="btn btn--middle">
+                  View Episode Details
                 </button>
               </div>
             </div>
@@ -141,8 +141,8 @@
               </p>
 
               <div class="contentItem__btn">
-                <button class="btn">
-                  <a href="#">View Episode Details</a>
+                <button class="btn btn--middle">
+                  View Episode Details
                 </button>
               </div>
             </div>
@@ -169,8 +169,8 @@
               </p>
 
               <div class="contentItem__btn">
-                <button class="btn">
-                  <a href="#">View Episode Details</a>
+                <button class="btn btn--middle">
+                  View Episode Details
                 </button>
               </div>
             </div>
@@ -183,9 +183,11 @@
       <div class="wrapper">
         <div class="tutorial__header">
           <div class="tutorial__left">
-            <button class="tutorial__btn">
-              <img src="/images/tutorial/arrow.png" alt="#" />
-            </button>
+            <div class="tutorial__wrapBtn">
+              <button class="tutorial__btn">
+                <img src="/images/tutorial/arrow.png" alt="#" />
+              </button>
+            </div>
             <a href="#" class="tutorial__link">Meet your host</a>
             <h2>Jacob Paulaner</h2>
             <p class="tutorial__txt tutorial__txt--top">
@@ -210,25 +212,26 @@
               <a href="#">Email Newsletter</a>
               <h2>Subscribe <br />for updates</h2>
             </div>
-            <div class="tutorial_rh">
+            <form id="form" class="tutorial_rh">
               <div class="input"></div>
               <input
                 type="text"
-                onclick="formSubmit()"
-                value="name"
+                placeholder="name"
                 class="input__form"
+                required
               />
               <input
                 type="text"
-                onclick="formSubmit()"
-                value="email"
+                placeholder="email"
                 class="input__form"
+                required
               />
-              <button class="btn"><a href="#">Submit</a></button>
+              <button class="btn" type="submit">Submit</button>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <script src="js/main.js"></script>
   </body>
 </html>
