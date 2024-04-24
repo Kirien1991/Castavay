@@ -375,6 +375,7 @@ a {
   display: flex;
   padding: 59px 61px;
   position: relative;
+  margin-bottom: 200px;
 }
 .form__content::before {
   content: "";
@@ -414,14 +415,17 @@ a {
   margin-bottom: 0;
 }
 
+.box .wrapper {
+  padding: 0 60px 0 78px;
+}
 .box__content {
   box-sizing: border-box;
   display: flex;
 }
 .box__item {
-  width: 33%;
   background-color: #000000;
   border-radius: 32px;
+  width: 33%;
 }
 .box__tx {
   font-size: 36px;
