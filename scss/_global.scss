@@ -74,18 +74,3 @@ a {
   border: 1px solid #191919;
   box-sizing: border-box;
 }
-
-.rating {
-  display: inline-flex;
-  &__item {
-    color: yellow;
-    cursor: pointer;
-    transition: 0.5s;
-    width: 23px;
-    font-size: 25px;
-
-    &:hover {
-      color: brown;
-    }
-  }
-}
