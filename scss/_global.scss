@@ -54,6 +54,10 @@ body {
   font-family: $fontBase;
 }
 
+li {
+  list-style: none;
+}
+
 a {
   display: inline-block;
   text-decoration: none;
