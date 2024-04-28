@@ -15,7 +15,7 @@ form.addEventListener("submit", function (event) {
   alert(nameValue + " - " + emailValue);
 });
 
-//rating//
+//rating  box.scss//
 const ratingItemsList = document.querySelectorAll(".rating__item");
 const ratingItemsArray = Array.prototype.slice.call(ratingItemsList);
 
