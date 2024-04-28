@@ -1,14 +1,69 @@
 .footer {
-  &__maon {
+  &__container {
+    display: flex;
+    margin-bottom: 110px;
+  }
+
+  &__main {
+    max-width: 447px;
   }
 
   &__logo {
+    padding-left: 22px;
+    padding-top: 18px;
+    margin-bottom: 30px;
     a {
       color: #fff;
       font-size: 48px;
       font-weight: 700;
       letter-spacing: 1px;
       line-height: 1.8px;
+    }
+  }
+
+  &__icon {
+    padding-left: 20px;
+    ul {
+      display: flex;
+      gap: 10px;
+    }
+  }
+
+  &__content {
+    max-width: 178px;
+    padding-left: 239px;
+  }
+
+  &__cont {
+    max-width: 178px;
+    padding-left: 123px;
+  }
+
+  &__nav {
+    li {
+      padding-bottom: 11px;
+    }
+    a {
+      color: #fff;
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 26px;
+    }
+    span {
+      letter-spacing: 0.5px;
+    }
+  }
+
+  &__item {
+    max-width: 440px;
+    padding-left: 22px;
+  }
+
+  &__link {
+    a {
+      display: inline-block;
+      margin-right: 13px;
+      font-size: 0px;
     }
   }
 }
